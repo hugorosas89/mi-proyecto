@@ -69,13 +69,13 @@ class App extends Component {
         <div className="container">
           <div className="row mt-4">
             <div className="col-md-3">
-              <img src={logo} className="App-logo" alt="logo" />
               <TodoForm onAddTodo={this.handleAddTodo}/>
             </div>
             <div className="col-md-9">
               <div className="row">
                 {todos}
               </div>
+              <img src={logo} className="App-logo" alt="logo" />
             </div>
           </div>
         </div>
